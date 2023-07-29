@@ -13,8 +13,10 @@ public class HW01 {
         } else if (cumle.contains("kucuk")){
             System.out.println(cumle.toLowerCase());
 
-        }else{
+        }else if (!cumle.contains("buyuk")&&!cumle.contains("kucuk")){
             System.out.println("Cumle buyuk ya da kucuk kelimesi icermiyor");
+        }else{
+            System.out.println("canin sagolsun");
         }
     }
 }
