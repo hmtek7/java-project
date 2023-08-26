@@ -1,6 +1,6 @@
 package day02_variables;
 
-import com.sun.org.apache.xpath.internal.objects.XString;
+
 
 public class Q02_Variables02 {
 
