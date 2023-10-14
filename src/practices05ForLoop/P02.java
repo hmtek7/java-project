@@ -8,18 +8,18 @@ public class P02 {
     // sayi negtifse veya tam sayi degilse uyari verelim
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("100den kucuk bir tam sayi giriniz");
-        double sayi=sc.nextDouble();
-        int no= (int) sayi;
-        if (sayi<0){
+        double sayi = sc.nextDouble();
+        int no = (int) sayi;
+        if (sayi < 0) {
             System.out.println("Sayiniz negatif tekrar deneyin");
-        }else if (sayi>100){
+        } else if (sayi > 100) {
             System.out.println("sayiniz yuzden buyuk tekrar deneyin");
 
-            }else{
-            for (int i = 1; i <=sayi ; i++) {
-                if (i%3==0&&i%5==0){
+        } else {
+            for (int i = 1; i <= sayi; i++) {
+                if (i % 3 == 0 && i % 5 == 0) {
                     System.out.println(i);
                 }
             }
